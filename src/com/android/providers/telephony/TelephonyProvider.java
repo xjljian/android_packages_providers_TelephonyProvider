@@ -144,6 +144,7 @@ public class TelephonyProvider extends ContentProvider
                     "type TEXT," +
                     "current INTEGER," +
                     "protocol TEXT," +
+                    "profile_type TEXT," +
                     "roaming_protocol TEXT," +
                     "carrier_enabled BOOLEAN," +
                     "bearer INTEGER);");
